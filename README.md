@@ -43,7 +43,7 @@ These metrics form the basis for **trend analysis, volatility assessment, perfor
 1. **API Integration** – Connected to the crypto price API using an authentication key.  
 2. **Data Extraction** – Parsed relevant fields such as name, price, and market cap.  
 3. **Timestamp Addition** – Added a timestamp column to track when each record was fetched.  
-4. **Automation Loop** – Used a `while True` loop with `time.sleep()` to run the extraction at set intervals.  
+4. **Automation Loop** – Used a `for` loop with `time.sleep()` to run the extraction at set intervals. 
 5. **Data Storage** – Appended each fetch result to a DataFrame and saved periodically to CSV for historical tracking.  
 
 ---
@@ -51,11 +51,11 @@ These metrics form the basis for **trend analysis, volatility assessment, perfor
 ## Data Cleaning & Transformation
 Data preparation steps included:
 
-- Parsing nested JSON responses from the API  
-- Flattening complex structures into a clean DataFrame  
-- Adding a **timestamp** column for time-based analysis  
-- Appending new API data to the CSV in “append mode” without overwriting previous entries  
-- Ensuring numeric precision for financial data with custom display formatting
+- Parsing nested JSON responses from the API.  
+- Flattening complex structures into a clean DataFrame.  
+- Adding a **timestamp** column for time-based analysis.  
+- Appending new API data to the CSV in “append mode” without overwriting previous entries.  
+- Ensuring numeric precision for financial data with custom display formatting.
 
 ---
 
