@@ -105,4 +105,5 @@ Special thanks to the **CoinMarketCap API documentation** and online Python comm
 I’m an **aspiring data analyst**, developing my portfolio through real-world use cases in **finance, procurement, HR operations, marketing analytics** and many more.
 
 **GitHub** – [Sowmyashree21](https://github.com/Sowmyashree21)
+
 **LinkedIn** - [Sowmyashree L](https://www.linkedin.com/in/sowmyashree-l-a7b829326/)
